@@ -1,0 +1,110 @@
+:root{
+    --rainbow-anim:rainbow 8s ease infinite;
+}
+html{
+    width:100%;
+    height:100%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(#2C3531,#212724);
+    color:#D1E8E2;
+}
+
+html, body {
+    overflow-x: hidden;
+    
+}
+body {
+    position: relative
+}
+h1{
+    color:#16915e
+}
+
+.button {
+    color:#2C3531;
+    background-color: #D1E8E2;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    color:#D1E8E2;
+    background-color: #116466;
+}
+input:read-only{
+    background-color: gray;
+}
+
+#hidden{
+    display:none;
+}
+.hidden{
+    display: none;
+}
+
+.divided{
+    display:inline-block;
+    max-width:35%;
+    width:auto;
+    min-width: 25%;
+    text-align: left;
+    border:#116466 solid 2px;
+    border-radius: 5%;
+    background-color: #D9B08C;
+}
+.centered{
+    text-align: center;
+}
+.quote{
+    font-size: larger;
+}
+.rainbow-text {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    animation: var(--rainbow-anim);
+}
+  
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+.intro-slider{
+    animation: slider 5s ease 1s forwards;
+    left:110%;
+    width: 50%;
+    font-size: large;
+    min-height: 80px;
+    height: 20%;
+    position:absolute;
+    background-color: #b38a67;
+    border:#116466 2px solid;
+    border-radius: 5%;
+    top:10%;
+
+}
+
+@keyframes slider {
+    0%{
+        left:-50%;
+    }
+    40%{left:25%;}
+    75%{left:25%;}
+    100%{
+        left:100%;
+        display:none;
+    }
+}
+/*
+#bodytext{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    height:100%;
+}
+*/

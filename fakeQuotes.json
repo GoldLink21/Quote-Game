@@ -1,0 +1,7 @@
+{"quotes":[
+    {"dialogue":[{"person":["Chris"],"quote":"This is Test Quote #1!"}]},
+    {"dialogue":[{"person":["Hunter","Nat"],"quote":"This is Test Quote #2! Together now!"}]},
+    {"dialogue":[{"person":["Chris"],"quote":"This is Test Quote #3! Part 1 that is!"},{"person":["Nat"],"quote":"This is Test Quote #3! Part 2, now isnt that great?"}]},
+    {"dialogue":[{"person":["Chris","Hunter","Nat"],"quote":"This is test quote #4! All at once!"}]},
+    {"dialogue":[{"person":["Chris"],"quote":"This is Test Quote #5! 3 part back and forth!"},{"person":["Hunter"],"quote":"Why would we talk back and forth?"},{"person":["Chris"],"quote":"To tell if when blocked it keeps who is who for guessing!"}]}
+],"people":["Chris","Hunter","Nat","David"]}
